@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page for Sofowora Divine's portfolio. Get in touch via email or phone.">
+    <title>Contact Me - Sofowora Divine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/823646f243.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="personal-logo">Sofowora Divine</div>
+            <ul class="nav-link-list">
+                <li><a href="index.html" class="nav-link-anchor">Home</a></li>
+                <li><a href="#languages" class="nav-link-anchor">Languages</a></li>
+                <li><a href="#projects" class="nav-link-anchor">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h1>Contact Me</h1>
+            <p>If you’d like to connect or have questions, feel free to reach out :</p>
+            <form action="submit.php" method="POST" class="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+       
+        <div class="social-links">
+            <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Deodiv" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:deodiv7@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+        <p>© 2024 Sofowora Divine. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
